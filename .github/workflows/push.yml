@@ -4,7 +4,6 @@ name: push
 on:
   push:
     branches-ignore:
-      - release
       - renovate/**
   pull_request:
     branches-ignore:
